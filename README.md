@@ -1,5 +1,3 @@
-Optimized C++ implementation of the Smith-Waterman algorithm for local alignment of protein sequences, including multithreading and memory management in O(N).
-
 # Protein Sequence Alignment - Smith-Waterman Algorithm
 
 This project provides a high-performance C++ implementation of the Smith-Waterman algorithm. It performs local alignment of a protein sequence (query) against a large database of protein sequences. 
