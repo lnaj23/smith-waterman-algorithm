@@ -21,9 +21,9 @@ To efficiently process a database containing hundreds of thousands of proteins (
 ## Project Structure
 
 *   `src/` & `headers/`: `.cpp` source files and `.h` headers separating the logic into different classes (`dataPin`, `query`, `Protein`, `Blosum`).
-*   `database/`: Target database files.
-*   `query/`: Input test protein file (FASTA format).
-*   `blosum/`: Text files containing the scoring matrices.
+*   `database/`: Target database files. (To setup before starting)
+*   `query/`: Input test protein file. (FASTA format, import it manually)
+*   `blosum/`: Text files containing the scoring matrices. (Import it manually)
 *   `main.cpp`: Main entry point of the program executing the multithreaded version.
 *   `Makefile`: Configuration file defining the compilation targets of the project.
 *   `INFO_H304_Groupe01.pdf`: Detailed technical report of the project.
@@ -34,7 +34,7 @@ The project uses a `Makefile` to automate compilation.
 
 ```bash
 # Compile the project
-make
+make projet
 
-# Execute the program
-./[generated_executable_name]
+# Execute the program (example)
+./projetopt query/P00533.fasta database/uniprot_sprot.fasta blosum/BLOSUM62 11 1
