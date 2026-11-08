@@ -37,8 +37,9 @@ The project uses a `Makefile` to automate compilation.
 make projet
 
 # Execute the program (example)
-./projetopt query/P00533.fasta database/testdatabase.fasta blosum/BLOSUM62 11 1
+./projet query/P00533.fasta database/testdatabase.fasta blosum/BLOSUM62 11 1
 ```
+You can also compile with `make projetopt`, the returned result will be much faster.
 
 You will expect : 
 ```bash
