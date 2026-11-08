@@ -38,3 +38,6 @@ make projet
 
 # Execute the program (example)
 ./projetopt query/P00533.fasta database/uniprot_sprot.fasta blosum/BLOSUM62 11 1
+```
+
+For more information, check `INFO_H304_Groupe01.pdf` file.
